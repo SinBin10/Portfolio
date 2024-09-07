@@ -1,8 +1,10 @@
+import Home from "./pages/Home";
+
 const App = () => {
   return (
-    <>
-      <div className="bg-red-950 h-full">Hello</div>
-    </>
+    <div className="bg-yellow-300 h-full w-full">
+      <Home />
+    </div>
   );
 };
 
